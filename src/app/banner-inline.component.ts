@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html'
+  selector: 'app-banner',
+  template: '<h1>{{title}}</h1>'
 })
-export class AppComponent { }
+export class BannerComponent {
+  title = 'Test Tour of Heroes';
+}
+
 
 
 /*

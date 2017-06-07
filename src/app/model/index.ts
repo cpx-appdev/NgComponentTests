@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html'
-})
-export class AppComponent { }
+// Model barrel
+export * from './hero';
+export * from './hero.service';
+export * from './http-hero.service';
+export * from './test-heroes';
+
+export * from './user.service';
 
 
 /*

@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html'
-})
-export class AppComponent { }
+import { Injectable } from '@angular/core';
+
+@Injectable()
+export class UserService {
+  isLoggedIn = true;
+  user = {name: 'Sam Spade'};
+}
 
 
 /*
